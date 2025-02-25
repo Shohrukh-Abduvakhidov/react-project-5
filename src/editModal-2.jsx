@@ -47,7 +47,7 @@ function EditModal({ id, category, setData }) {
       setEdit(false);
     } catch (error) {
       console.error(error);
-    }
+    }  
   };
 
   return (
