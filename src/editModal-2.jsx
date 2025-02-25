@@ -51,7 +51,7 @@ function EditModal({ id, category, setData }) {
   };
 
   return (
-    <>
+    <> 
       <EditFilled   style={{ color: "blue", fontSize: "20px", cursor: "pointer" }} onClick={ModalOpen}>Edit</EditFilled>
 
       <Modal title={"Edit User"} open={isOpenEdit} onOk={editUser} onCancel={() => setEdit(false)}>
